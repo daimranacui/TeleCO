@@ -1,0 +1,28 @@
+{
+  "algorithm": "AdaBoost",
+  "cv_folds": 10,
+  "n_customers": 7021,
+  "churn_rate_percent": 26.45,
+  "cv_scores": {
+    "Accuracy": 0.805,
+    "Precision": 0.6642,
+    "Recall": 0.5342,
+    "F1": 0.5915,
+    "ROC-AUC": 0.8491
+  },
+  "numeric_ranges": {
+    "tenure": [
+      0.0,
+      72.0
+    ],
+    "MonthlyCharges": [
+      18.25,
+      118.75
+    ],
+    "TotalCharges": [
+      18.8,
+      8684.8
+    ]
+  },
+  "sklearn_version": "1.8.0"
+}
